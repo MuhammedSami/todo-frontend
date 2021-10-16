@@ -77,7 +77,12 @@
 </template>
 
 <script>
+  import ToDoItem from './components/ToDoItem.vue';
+
   export default {
+  components: {
+    ToDoItem
+  },
     data: () => (
         { 
           drawer: null ,
